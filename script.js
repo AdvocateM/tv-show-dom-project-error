@@ -32,7 +32,7 @@ function makePageForEpisodes(episodeList) {
     const delP = episode.summary.replace(/(<([^>]+)>)/gi, "");
     console.log(delP);
 
-    const template = `<div class="col-12 sm-col-6 md-col-4 lg-col-3">
+    const template = `<div class="column-12 sm-column-6 md-column-4 lg-column-3">
     <div class="episodeDiv">
                 <div class="title">
                     <h5>${movies}</h5>
