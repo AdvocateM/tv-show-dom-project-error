@@ -383,4 +383,7 @@ function makePageForEpisodes(episodeList) {
         summery[i].classList.add("is-hidden");
         row[i].classList.add('is-hidden');
       };
+      
+//       I think Advocate's code is clear and readable!
+      
 window.onload = setup;
